@@ -81,7 +81,24 @@
       text-align: center;
       padding: 15px 10px;
       font-size: 14px;
-    }
+    #gallery {
+  text-align: center;
+  padding-top: 20px;
+}
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 20px 10px;
+  scroll-snap-type: x mandatory;
+}
+.gallery img {
+  width: 260px;
+  height: auto;
+  border-radius: 8px;
+  scroll-snap-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
   </style>
 </head>
 <body>
